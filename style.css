@@ -30,12 +30,12 @@ nav{
     top: 0;
     height: 90px;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 60px;
 }
 nav .heading{
     font-size: 35px;
     display: flex;
-    margin-left: 60px;
+    
 }
 nav a{
     transition: color 0.5s;
@@ -664,17 +664,20 @@ html{
 
 @media only screen and (max-width: 600px){
   nav{
-    padding-left: 1px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
   }
-.heading{
-  position: absolute;
-    left: 0px;
+.heading {
+  margin: auto;
+  
+  width: 100%;
     font-size: 30px;
-    bottom: 1px;
   }
   .heading h3{
-    font-size: 25px;
+    font-size: 2.2rem;
   }
   nav ul{
     display: none;
@@ -683,15 +686,17 @@ html{
     display: none;
   }
   .intro{
+   
     display: flex;
     justify-content: center;
     width: 100%;
     position: absolute;
-    top: -200px;
+    top: -15vh;
    
 
   }
   .intro h1{
+    width: 100%;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: normal;
@@ -702,10 +707,13 @@ html{
     margin: 0 auto;
     width: 330px;
   }
+  .intro a{
+    margin-top: -5rem;
+  }
   .intro button{
     width: 100px;
     font-weight: 550;
-    margin-left: 10rem;
+margin: 0 auto;
     letter-spacing: normal;
     margin-bottom: 30px;
    font-size: 15px;
@@ -754,11 +762,13 @@ text-align: center;
   .get button{
     width: 100px;
     margin: auto;
-    margin-right: -10rem;
     font-weight: 550;
     letter-spacing: normal;
     font-size: 15px;
     height: 50px;
+  }
+  .get a{
+    margin-top: -5rem;
   }
   .skill{
     margin: auto;
@@ -779,7 +789,7 @@ text-align: center;
   .projects{
 width: 100%;
     margin-bottom: -2rem;
-    height: 167rem;
+    height: 175rem;
     padding: 0;
   }
   .project-heading{
@@ -848,6 +858,7 @@ width: 100%;
 .text3{
   margin-top: -16rem;
 }
+.box3 a{}
    .contact{
     display: flex;
     justify-content: center;
@@ -869,7 +880,7 @@ width: 100%;
     
    }
    .info{
-    width: 340px;
+    width: 30vh;
      border: none;
      border-radius: 0;
      box-shadow: none;
@@ -886,8 +897,9 @@ width: 100%;
 
    }
    .info button{
-    margin: auto;
-    margin-left: 13rem;
+    margin: 0 auto;
+    margin-left: 10rem;
+
     width: 100px;
     font-weight: 550;
     letter-spacing: normal;
